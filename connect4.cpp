@@ -66,6 +66,8 @@ int main()
             };
             changeTurn = false;
         }; //while
+        cout << "\n\n";
+        cout << gameBoard.displayBoard();
         cout << "\n" << getWinTieMessage(gameBoard) << "\n";
         char playAgain;
         cout << "\nPlay again (enter Y or y)?";
